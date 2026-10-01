@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+input,
+select {
+  color: #222;
+  background-color: white;
+}
+
+input::placeholder {
+  color: #777;
+}
+
+button {
+  font-family: Arial, sans-serif;
+}
