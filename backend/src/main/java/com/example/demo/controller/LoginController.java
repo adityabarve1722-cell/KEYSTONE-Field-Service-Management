@@ -14,7 +14,10 @@ import com.example.demo.repository.UserRepository;
 import com.example.demo.security.JwtService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://keystone-frontend-flax.vercel.app"
+})
 public class LoginController {
 
     private final UserRepository userRepository;
